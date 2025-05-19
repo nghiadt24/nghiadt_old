@@ -3,19 +3,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     // gsap code here!
     const preloadetTl = gsap.timeline();
     preloadetTl
-    .fromTo (".lava-lamp",{
-        y:-2000,
-        opacity: 0,
-        scale: 0.2
-    },
-    {
-        y:0,
-        scale: 1,
-        opacity:1,
-        duration: 2,
-        ease: "power3.out",
-    })
-
     .to(".lava-lamp",{
         scale: 30,
         rotation: 90,
