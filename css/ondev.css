@@ -1,0 +1,130 @@
+.textLight {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+}
+
+.textNormal {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+.textMd {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+.textBold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+.textLight {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+}
+
+.textNormal {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+.textMd {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+.textBold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.on-dev-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #060606;
+  position: relative;
+  height: 100vh;
+}
+
+.on-dev-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.on-dev-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.on-dev-graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.on-dev-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+
+.on-dev-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #F6F6F6;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.on-dev-description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  color: #B0B0B0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.on-dev-btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.text-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  color: #F6F6F6;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}/*# sourceMappingURL=ondev.css.map */

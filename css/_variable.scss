@@ -1,0 +1,53 @@
+// primary-color
+$color-primary-900: #0C2B5F;
+$color-primary: #044FC7;
+$color-primary-700: #0063F9;
+$color-primary-600: #027CFF;
+$color-primary-500: #1A9CFF;
+$color-primary-400: #44BEFF;
+$color-primary-300: #80D7FF;
+$color-primary-200: #B4E5FF;
+$color-primary-100: #D5EFFF;
+$color-primary-50: #ECF9FF;
+
+// grey-color 
+
+$color-grey-900: #060606;
+$color-grey-800: #454545;
+$color-grey-700: #4F4F4F;
+$color-grey-600: #5D5D5D;
+$color-grey-500: #6D6D6D;
+$color-grey-400: #888888;
+$color-grey-300: #B0B0B0;
+$color-grey-200: #D1D1D1;
+$color-grey-100: #E7E7E7;
+$color-grey-50: #F6F6F6;
+
+// typography 
+
+$font-family-base: "DM Sans",
+sans-serif;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-md: 500;
+$font-weight-bold: 600;
+$font-size-base: 16px;
+$line-height-base: 24px;
+
+// text-color 
+
+@mixin text-light {
+    color: $color-grey-50;
+}
+
+@mixin text-dark {
+    color: $color-grey-900;
+}
+
+@mixin text-grey {
+    color: $color-grey-300;
+}
+
+@mixin text-primary {
+    color: $color-primary;
+}

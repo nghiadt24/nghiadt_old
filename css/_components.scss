@@ -1,0 +1,106 @@
+@import '_variable.scss';
+@import '_mixin.scss';
+
+
+
+// main-nav 
+
+@mixin main-nav {
+    position: fixed;
+    top: 32px;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+// text 
+
+@mixin nav-link {
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    font-size: $font-family-base;
+    line-height: 24px;
+    @include text-light;
+}
+
+// btn
+
+@mixin primary-btn {
+    @include text-light;
+    display: flex;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 100px;
+    --black: #000000;
+    --ch-black: #141414;
+    --eer-black: #1b1b1b;
+    --night-rider: #2e2e2e;
+    --white: #ffffff;
+    --af-white: #f3f3f3;
+    --ch-white: #e1e1e1;
+    border: none;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    background-color: var(--ch-black);
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        left: -2px;
+        top: -2px;
+        border-radius: 100px;
+        background: linear-gradient(45deg,
+                var(--ch-black), var(--eer-black),
+                var(--night-rider), var(--ch-white), var(--night-rider),
+                var(--eer-black), var(--ch-black), var(--ch-black));
+        background-size: 400%;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        z-index: -1;
+        animation: steam 20s linear infinite;
+    }
+
+    &::after {
+        filter: blur(50px);
+    }
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@mixin secondary-btn {
+    display: flex;
+    padding: 16px 32px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    background: rgba(44, 44, 44, 0.20);
+    backdrop-filter: blur(7.599999904632568px);
+    @include text-light;
+    @include textMd;
+    font-size: 16px;
+    line-height: 24px;
+}

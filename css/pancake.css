@@ -1,0 +1,133 @@
+.textLight {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+}
+
+.textNormal {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+.textMd {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+.textBold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+.textLight {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+}
+
+.textNormal {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+.textMd {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+.textBold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.works-title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: auto;
+  padding: 180px 0px 64px 0px;
+  background-color: #060606;
+}
+
+.works-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.works-title-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.works-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #F6F6F6;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.works-description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  color: #B0B0B0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.grp-grid-section {
+  height: auto;
+  padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  background-color: #060606;
+}
+
+.grp-grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+
+.big-img-row {
+  width: 100%;
+  padding: 0 0 !important;
+}
+
+.grp-big-img {
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0 0 !important;
+}
+
+.grp-sm-img {
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=pancake.css.map */

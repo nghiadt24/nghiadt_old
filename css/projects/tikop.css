@@ -1,0 +1,415 @@
+:root {
+  scroll-behavior: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #060606;
+  overflow: hidden !important;
+}
+
+.tk-title-dark {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #202020;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: start;
+}
+
+.tk-title-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: start;
+}
+
+.tk-description-dark {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #202020;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+}
+
+.tk-description-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+}
+
+.tk-main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  padding: 24px 0px;
+  overflow: hidden;
+  z-index: 90;
+  transition: top 0.3s;
+}
+
+.tk-hero-content-section {
+  height: auto;
+  padding: 120px 0px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.tk-hero-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.tk-hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+
+.tk-hero-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 84px;
+  line-height: 92px;
+  text-align: center;
+  color: #202020;
+}
+
+.tk-hero-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #2A2A2A;
+}
+
+.green-text {
+  color: #009F47;
+}
+
+.hero-graph-section {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  position: relative;
+}
+
+.hero-graph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.hero-graph-img {
+  height: auto;
+  width: 100%;
+}
+
+.tk-big-logo {
+  position: absolute;
+  z-index: 0;
+}
+
+.tk-about-section {
+  display: flex;
+  height: auto;
+  padding: 120px 0px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: #fff;
+}
+
+.tk-about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+
+.tk-about-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #202020;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: start;
+  text-align: center;
+}
+
+.tk-about-description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #202020;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+  text-align: center;
+}
+
+.tk-about-archive-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.tk-about-archive {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.tk-about-archive-title {
+  color: #202020;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.tk-about-archive-subtitle {
+  color: #2A2A2A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tk-context-section {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  gap: 42px;
+}
+
+.tk-context-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tk-context-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.tk-context-title {
+  color: #202020;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: start;
+}
+
+.tk-context-description {
+  color: #2A2A2A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: start;
+}
+
+.tk-context-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+}
+
+.tk-flow-section {
+  height: auto;
+  padding: 120px 0px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tk-flow-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 42px;
+}
+
+.tk-library-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 120px 0px;
+  background-color: #fff;
+}
+
+.tk-library-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 32px;
+}
+
+.tk-library-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.tk-vd-section {
+  height: 80vh;
+  position: relative;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.tk-ui-grid-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: auto;
+  padding: 120px 0;
+  background-color: #fff;
+}
+
+.tk-ui-grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.tk-img-scroll-1 {
+  background-image: url("./tikop/tk-scroll-img.png");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.tk-img-scroll-2 {
+  background-image: url("./tikop/tk-scroll-img2.png");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.tk-thanks-section {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #060606;
+}
+
+.tk-thanks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tk-thanks-content-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.tk-thanks-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+}
+
+.tk-thanks-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  ;
+  text-align: start;
+  font-size: 42px;
+  line-height: 50px;
+  color: #1DB954;
+}
+
+.tk-thanks-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #F2F2F2;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: start;
+}
+
+.appstore-btn-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+
+/*# sourceMappingURL=tikop.css.map */

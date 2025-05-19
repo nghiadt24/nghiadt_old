@@ -1,0 +1,39 @@
+@import '_variable.scss';
+
+// typo 
+
+@mixin textLight {
+    font-family: $font-family-base;
+    font-weight: $font-weight-light;
+}
+
+@mixin textNormal {
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+}
+
+@mixin textMd {
+    font-family: $font-family-base;
+    font-weight: $font-weight-md;
+}
+
+@mixin textBold {
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+}
+
+.textLight {
+    @include textLight();
+}
+
+.textNormal {
+    @include textNormal();
+}
+
+.textMd {
+    @include textMd();
+}
+
+.textBold {
+    @include textBold();
+}

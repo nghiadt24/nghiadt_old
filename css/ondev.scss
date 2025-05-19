@@ -1,0 +1,80 @@
+@import '_variable.scss';
+@import '_mixin.scss';
+@import '_components.scss';
+
+.on-dev-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #060606;
+    position: relative;
+    height: 100vh;
+}
+
+.on-dev-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-icon {
+    font-size: 24px;
+    color: #fff;
+}
+
+.on-dev-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.on-dev-graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.on-dev-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.on-dev-title {
+    @include textMd;
+    @include text-light;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.on-dev-description {
+    @include textLight;
+    @include text-grey;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.on-dev-btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.text-btn {
+    @include textLight;
+    @include text-light;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}

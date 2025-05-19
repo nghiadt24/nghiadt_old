@@ -1,0 +1,501 @@
+:root {
+  scroll-behavior: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #060606;
+  overflow: hidden !important;
+}
+
+.wk-hero-section {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('./webcake/wk_hero_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  justify-content: start;
+}
+
+.wk-hero-graph {
+  position: absolute;
+  z-index: 0;
+  right: -220px;
+  bottom: -220px;
+}
+
+.wk-hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  z-index: 1;
+  padding-top: 120px;
+}
+
+.wk-hero-content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+
+.wk-hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.wk-hero-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.wk-hero-subtitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+.wk-img-wrap {
+  position: absolute;
+  bottom: -340px;
+}
+
+.wk-title-dark {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #202020;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: start;
+}
+
+.wk-title-light {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: start;
+}
+
+.wk-description-dark {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  color: #202020;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+}
+
+.wk-description-light {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+}
+
+.wk-about-section {
+  height: 60vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+}
+
+.wk-about-content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+}
+
+.wk-img-sect-01 {
+  background-image: url("./webcake/wk_img_sect_01.jpg");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wk-img-sect-02 {
+  background-image: url("./webcake/wk_img_sect_02.jpg");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wk-img-card-section {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+}
+
+.wk-img-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wk-img-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+}
+
+.wk-img-sect-03 {
+  background-image: url("./webcake/wk_img_sect_03.jpg");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wk-ld-heading-section {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  height: auto;
+  padding: 120px 0px;
+  background-color: #3EBF6F;
+}
+
+.wk-ld-heading-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.wk-ld-heading-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: start;
+  text-align: center;
+}
+
+.wk-ld-heading-description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+  text-align: center;
+}
+
+.wk-product-heading-section {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url("./webcake/wk_prd_bg.png");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wk-product-heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.wk-product-heading-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.wk-product-heading-tile {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: start;
+  text-align: center;
+}
+
+.wk-product-heading-description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+  text-align: center;
+}
+
+.wk-product-graph {
+  position: absolute;
+  z-index: 0;
+}
+
+.wk-img-sect-04 {
+  background-image: url("./webcake/wk_img_sect_04.jpg");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wk-ds-lb-section {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  height: auto;
+  padding: 120px 0px;
+  background-color: #fff;
+}
+
+.wk-ds-lb-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+
+.wk-ds-lb-typo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 84px;
+}
+
+.wk-font-name {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #1DB954;
+  font-size: 84px;
+  line-height: 92px;
+  text-align: center;
+}
+
+.wk-font-weight {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2A2A2A;
+}
+
+.wk-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wk-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.wk-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.wk-ds-lb-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+
+.wk-ui-section {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #4AC378;
+  height: auto;
+  padding: 120px 0px;
+}
+
+.wk-ui-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wk-img-sect-05 {
+  background-image: url("./webcake/wk_img_sect_05.jpg");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wk-ui-container {
+  z-index: 1;
+}
+
+.cascader {
+  position: absolute;
+  left: 60px;
+  top: 180px;
+  transform: scale(0.9);
+  z-index: 2;
+}
+
+.wk-pos {
+  position: absolute;
+  left: 60px;
+  bottom: 80px;
+  z-index: 2;
+}
+
+.wk-set {
+  position: absolute;
+  right: 60px;
+  bottom: 53px;
+  transform: scale(0.8);
+  z-index: 2;
+}
+
+.wk-filter {
+  position: absolute;
+  right: 80px;
+  top: 83px;
+  z-index: 2;
+  transform: scale(0.8);
+}
+
+#soft-color {
+  background-color: #EAF1ED;
+}
+
+.wk-mail-list {
+  z-index: 2;
+  position: absolute;
+  right: 60px;
+  bottom: 13px;
+  transform: scale(0.8);
+}
+
+.wk-img-sect-06 {
+  background-image: url("./webcake/wk_img_sect_06.jpg");
+  height: 80vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wk-thanks-section {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #060606;
+}
+
+.wk-thanks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wk-thanks-content-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.wk-thanks-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+}
+
+.wk-thanks-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  text-align: start;
+  font-size: 42px;
+  line-height: 50px;
+  color: #1DB954;
+}
+
+.wk-thanks-subtitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: start;
+}
+
+/*# sourceMappingURL=webcake.css.map */
